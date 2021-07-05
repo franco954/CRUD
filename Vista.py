@@ -1,26 +1,9 @@
 
 
-"""
-AUTOR: Franco Alejandro Nuñez
-Ultima modificacion: 06/09
-
-
-Modulo: Vista.py
-
-
-Modulo que es contactado apenas inicia la app para largar la vista principal. Esta conectado directamente al controlador
-
-"""
-
-
-
-
 
 #importo libreria
 from tkinter import * 
 from tkinter import ttk
-
-
 
  
 

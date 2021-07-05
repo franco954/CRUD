@@ -1,15 +1,4 @@
 
-"""
-AUTOR: Franco Alejandro Nuñez
-Ultima modificacion: 06/09
-
-
-Modulo: conexion.py
-
-Este modulo consiste en una clase con diversos metodos que se encargan de hacer distintas consultas con la base de datos
-y devolver los valores obtenidos al Modelo
-
-"""
 
 
 # importo la base de datos sqlite3 usada en este caso

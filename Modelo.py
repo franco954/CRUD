@@ -2,19 +2,6 @@
 
 
 
-"""
-AUTOR: Franco Alejandro Nuñez
-Ultima modificacion: 06/09
-
-
-Modulo: Modelo.py
-
-
-Modulo que recibe las ordenes directamente del controlador y que dependiendo el pedido va a realizar la conexion con los distintos
-modulos que tiene a su mando (temas.py, validarAlfa.py, conexion.py)
-
-"""
-
 
 # importo la libreria usada y sus caracteristicas
 from tkinter import *
@@ -93,10 +80,6 @@ class miModelo:
             print("Controlador.py/Modelo.py")
 
 
-"""
-     Metodos de consulta con las bases de datos, reciben la orden del controlador y realizan la accion correspondiente al boton presionado
-     se comunican con el modulo conexion.py para poder obtener la info de la bbdd y asi poder trabajar
-"""
     def salir_app(self, root, ):
 
         try:

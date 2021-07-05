@@ -1,17 +1,5 @@
 
 
-"""
-AUTOR: Franco Alejandro Nuñez
-Ultima modificacion: 06/09
-
-
-Modulo: TopLevelTemas
-
-
-Modulo que despues del clickeo en su boton correspondiente, es llamado por el controlador para largar la vista emergente relacionado a la modificacion
-de tematicas de la app
-"""
-
 
 # importo la libreria
 from tkinter import *

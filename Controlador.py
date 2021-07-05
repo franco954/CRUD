@@ -1,26 +1,5 @@
 
 
-"""
-AUTOR: Franco Alejandro Nuñez
-Ultima modificacion: 06/09
-
-
-Modulo: Controlador.py
-En este modulo se lleva a cabo todos los inicios de conexiones a los otros modulos de la aplicacion.
-Se busca de esta manera que no exista accion que no pase por el controlador.
-
-
-Diagrama de la app
-
-				- - - - Vista.py
-				-							- - - conexion.py
-Controlador.py 	- - - - TopLevelTemas.py	-
-				-							- - - temas.py	
-				- - - - Modelo.py - - - - - - 
-											- 
-											- - - validarAlfa.py
-"""
-
 
 # Importo los modulos que se comunican directamente con el controlador
 from tkinter import *
@@ -82,10 +61,6 @@ class miControlador:
 			print("Controlador.py")
 
 			
-	"""
-	 metodos que suceden al tocar los botones de la app, enviando la orden a Modelo.py y este a conexion.py 
-	 para que realize la consulta correspondiente con la BBDD
-	"""
 	def registroAltas(self, a_val, b_val, accionesMensajes, pantallaPrincipal ):
 
 		try:

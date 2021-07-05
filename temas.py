@@ -2,19 +2,6 @@
 
 
 
-"""
-AUTOR: Franco Alejandro Nuñez
-Ultima modificacion: 06/09
-
-
-Modulo: temas.py
-
-
-Modulo que recibe los datos de las vistas a modificar y que dependiendo el metodo solicitado va a hacerlo de tal o cual forma.
-
-"""
-
-
 # importo la libreria
 from tkinter import *
 
